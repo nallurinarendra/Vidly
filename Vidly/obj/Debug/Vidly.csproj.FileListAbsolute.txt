@@ -96,3 +96,4 @@ C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.AddingTheG
 C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.DeletingTheGenreclass.resources
 C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.AddingGenre.resources
 C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
+C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.errorcorrection.resources

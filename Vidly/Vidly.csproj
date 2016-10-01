@@ -263,6 +263,10 @@
     <Compile Include="Migrations\201609222152492_AddingGenre.Designer.cs">
       <DependentUpon>201609222152492_AddingGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609270415213_errorcorrection.cs" />
+    <Compile Include="Migrations\201609270415213_errorcorrection.Designer.cs">
+      <DependentUpon>201609270415213_errorcorrection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customers.cs" />
@@ -271,7 +275,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
-    <Compile Include="Models\NewCustomerViewModel.cs" />
+    <Compile Include="Models\CustomerFormViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -398,6 +402,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609222152492_AddingGenre.resx">
       <DependentUpon>201609222152492_AddingGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609270415213_errorcorrection.resx">
+      <DependentUpon>201609270415213_errorcorrection.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -12,8 +12,7 @@ namespace Vidly.Controllers
     public class CustomersController : Controller
     {
         private ApplicationDbContext _context;
-        private ApplicationDbContext _ccontext;
-
+        
         public CustomersController()
         {
             _context = new ApplicationDbContext();
@@ -68,7 +67,8 @@ namespace Vidly.Controllers
 
             }
 
-             _context.SaveChanges();
+           _context.SaveChanges();
+          
            
             return RedirectToAction("Index","Customers");
         }
