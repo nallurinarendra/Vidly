@@ -7,15 +7,16 @@ using System.Web;
 using System.Web.Mvc;
 using Vidly.Models;
 
+
 namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
-        private ApplicationDbContext _context;
+        private Models.ApplicationDbContext _context;
         
         public CustomersController()
         {
-            _context = new ApplicationDbContext();
+            _context = new Models.ApplicationDbContext();
         }
         protected override void Dispose(bool disposing)
         {
@@ -28,6 +29,7 @@ namespace Vidly.Controllers
             
             var viewModel = new CustomerFormViewModel
             {
+                Customers = new Customers(),
                 MembershipTypes = membershipTypes
             };
 
@@ -51,6 +53,7 @@ namespace Vidly.Controllers
         [HttpPost]
         public ActionResult Save(Customers customer)
         {
+            
             if (customer.Id == 0)
             {
                 _context.customers.Add(customer);
@@ -63,11 +66,11 @@ namespace Vidly.Controllers
                 customerInDb.DOB = customer.DOB;
                 customerInDb.MembershipTypeId = customer.MembershipTypeId;
                 customerInDb.IsSubscribedtonewsLetter = customer.IsSubscribedtonewsLetter;
-
-
+                
             }
 
-           _context.SaveChanges();
+                _context.SaveChanges();
+            
           
            
             return RedirectToAction("Index","Customers");
@@ -86,7 +89,6 @@ namespace Vidly.Controllers
 
             };
             return View("CustomerForm", viewModel);
-             
         }
        
     }

@@ -97,3 +97,4 @@ C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.DeletingTh
 C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.AddingGenre.resources
 C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.csprojResolveAssemblyReference.cache
 C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.errorcorrection.resources
+C:\Users\nani\Desktop\Practice\vidly\Vidly\obj\Debug\Vidly.Migrations.corrections.resources

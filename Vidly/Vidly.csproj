@@ -267,6 +267,10 @@
     <Compile Include="Migrations\201609270415213_errorcorrection.Designer.cs">
       <DependentUpon>201609270415213_errorcorrection.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610070413012_corrections.cs" />
+    <Compile Include="Migrations\201610070413012_corrections.Designer.cs">
+      <DependentUpon>201610070413012_corrections.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customers.cs" />
@@ -405,6 +409,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609270415213_errorcorrection.resx">
       <DependentUpon>201609270415213_errorcorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610070413012_corrections.resx">
+      <DependentUpon>201610070413012_corrections.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
