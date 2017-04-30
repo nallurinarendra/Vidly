@@ -90,6 +90,10 @@ namespace Vidly.Controllers
             };
             return View("CustomerForm", viewModel);
         }
+        public ActionResult Editing()
+        {
+            return View();
+        }
        
     }
 }

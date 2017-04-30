@@ -22,5 +22,7 @@ namespace Vidly.Models
 
         [Display (Name = "Date Of Birth")]
         public DateTime? DOB { get; set; }
+
+        public string StreetName { get; set; }
     }
 }
